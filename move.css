@@ -1,0 +1,30 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  margin: 0%;
+  position: relative;
+  background-color: black;
+  height: 100vh;
+}
+#h{
+  color: rgb(214, 21, 21);
+  text-transform: capitalize;
+  font-size: 70px;
+  left: 520px;
+  word-spacing: 5px;
+  top: 250px;
+  position: absolute;
+}
+#crs {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  mix-blend-mode: difference;
+  background-color:red;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
